@@ -3,15 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <title>TODO(JS)</title>
+    <script type="module" src="/main.js"></script>
   </head>
   <body>
     <div class="input-area">
-      <input placeholder="TODOを入力" />
-      <button>追加</button>
+      <input id="add-text" placeholder="TODOを入力" />
+      <button id="add-button">追加</button>
     </div>
     <div class="incomplete-area">
       <p class="title">未完了のTODO</p>
-      <ul>
+      <ul id="incomplete-list">
         <li>
           <div class="list-row">
             <p class="todo-item">TODOです</p>
@@ -45,6 +46,5 @@
         </li>
       </ul>
     </div>
-    <script type="module" src="/main.js"></script>
   </body>
 </html>
